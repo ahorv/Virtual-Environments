@@ -1,0 +1,25 @@
+name: rpipic
+dependencies:
+- openssl=1.0.1k=1
+- pip=7.1.2=py34_0
+- python=3.4.3=1
+- setuptools=18.1=py34_0
+- sqlite=3.8.4.1=1
+- wheel=0.24.0=py34_0
+- xz=5.0.5=0
+- zlib=1.2.8=0
+- pip:
+  - amqp==2.2.2
+  - billiard==3.5.0.3
+  - celery==4.1.0
+  - django==2.0.1
+  - kombu==4.1.0
+  - numpy==1.14.0
+  - picamera==1.13
+  - pillow==5.0.0
+  - pytz==2017.3
+  - pyzmq==16.0.3
+  - south==1.0.2
+  - vine==1.1.4
+  - zmq==0.0.0
+
