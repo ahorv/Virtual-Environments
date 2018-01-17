@@ -9,17 +9,18 @@ dependencies:
 - xz=5.0.5=0
 - zlib=1.2.8=0
 - pip:
-  - amqp==2.2.2
-  - billiard==3.5.0.3
-  - celery==4.1.0
+  - amqp==1.4.9
+  - anyjson==0.3.3
+  - billiard==3.3.0.23
+  - celery==3.1.25
   - django==2.0.1
-  - kombu==4.1.0
+  - django-celery==3.2.2
+  - kombu==3.0.37
   - numpy==1.14.0
   - picamera==1.13
   - pillow==5.0.0
   - pytz==2017.3
   - pyzmq==16.0.3
-  - south==1.0.2
   - vine==1.1.4
   - zmq==0.0.0
 
